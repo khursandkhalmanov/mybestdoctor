@@ -1,13 +1,7 @@
 @extends('master')
-
-@section('title', 'Contact Us')
+@section('title', 'ZCE Real Test')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 @section('content')
-    <!-- navigation -->
-
-    <!-- end navigation -->
-    <!-- slider -->
-    <!-- contact section -->
     <section id="contact" class="wow fadeIn border-top border-bottom border-transperent-white-light animated"
              style="visibility: visible; animation-name: fadeIn;">
 
@@ -44,12 +38,10 @@
         </div>
         <div class="clearfix"></div>
         <p id="pt">25 : 00</p>
-        <div>
+        <div class="mysections">
             <p class="result" id="tquest">Total Questions: 25</p></p><p class="result" id="count"></p><p class="result" id="right"></p><p class="result" id="persent" ></p>
-
             @foreach($questions as $question)
-
-
+                <div class="myquestions_answers">
                 <p class="ph" id="phn{{$question->id}}"><b>Question No:{{$question->id}}</b></p><p class="ph" id="ph{{$question->id}}"><b> {{$question->question}}</b></p>
                 <div class="div2" id="div2{{$question->id}}">
                     @if ($question->content != ''){{$question->content}}<br>@else @endif
@@ -71,9 +63,22 @@
                     <button class="btn2" data-id="{{$question->id}}" type="submit">Submit</button>
                         <p class="result1" id="p{{$question->id}}"></p><br>
                 </div>
+                </div>
             @endforeach
         </div>
         <style>
+            .myquestions_answers{
+                margin-bottom: 20px;
+                border: 5px solid black;
+                padding:10px;
+                background-color: #f5efef66;
+            }
+            .mysections{
+                background-color: #fff;
+                border:1px solid black;
+                display: none;
+                padding:10px;
+            }
             #tquest{
                 display: none;
             }
@@ -230,6 +235,9 @@
 
             body, p, a, div, h1, h2, span{
                 color: black !important;
+            }
+            body{
+                background-color: #7c9ae8;
             }
 
             .navbar-nav a {
@@ -396,6 +404,16 @@
 
                 });
                 generate_random_numbers();
+                $("#office").animate({
+                    width:'100%',
+                    opacity: '1'
+                },1000);
+                $(".header").animate({
+                    fontSize:'50'
+                },1000);
+                $("button").click(function () {
+                    $(".mysections").fadeIn('slow');
+                })
             });
             function generate_random_numbers() {
                 for(i=1;i<224;i++){
@@ -409,18 +427,7 @@
             var second;
             var minute;
 
-            $(function () {
-                $("#office").animate({
-                    width:'100%',
-                    opacity: '1'
-                },1000);
-            });
-            $(function () {
-                $(".header").animate({
-                    fontSize:'50'
-                },1000);
 
-            });
             function sec(){
                 if(minute >= 0){
                     second = second - 1;
@@ -470,7 +477,6 @@
         </script>
 
     </section>
-    <!-- end contact section -->
     @include('footer')
 @endsection
 
