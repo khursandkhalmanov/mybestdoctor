@@ -206,6 +206,7 @@
         </style>
         <script>
             $(function () {
+                var test_type = 'practice';
                 var num5;
                 $(".btn2").click(function () {
                     var id = $(this).data('id');
@@ -249,6 +250,9 @@
                 });
 
                 function trigger_btn3(){
+                    if (test_type!='exam'){
+                        return false;
+                    }
                     var num3 = Math.floor(Math.random() * num4.length);
                     num3 = num4[num3];
 
@@ -280,6 +284,8 @@
                     num  = 0;
                     num2 = 0;
                     num5 = 1;
+                    test_type = 'exam';
+
                     $(this).css("display","none");
                     $("#btn3").css("display","block");
 
@@ -324,6 +330,7 @@
                 $("#btn4").click(function () {
                     num  = 0;
                     num2 = 0;
+                    test_type = 'practice';
 
                     $("#tquest").css("display","none");
                     $(".ph").css("display","block");
@@ -342,6 +349,10 @@
                 for(i=1;i<224;i++){
                     num4.push(i);
                 }
+
+
+
+
             });
             var num;
             var num2;
