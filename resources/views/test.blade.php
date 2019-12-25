@@ -68,7 +68,8 @@
                     @if ($question->c != '') <input class="input2 c" id="c{{$question->id}}" type="checkbox"><p> C:{{$question->c}}</p><br>@else @endif
                     @if ($question->d != '') <input class="input2 d" id="d{{$question->id}}" type="checkbox"><p> D:{{$question->d}}</p><br>@else @endif
                     @if ($question->e != '') <input class="input2 e" id="e{{$question->id}}" type="checkbox"><p> E:{{$question->e}}</p><br>@else @endif
-                    <button class="btn2" data-id="{{$question->id}}" type="submit">Submit</button> <p class="result1" id="p{{$question->id}}"></p><br>
+                    <button class="btn2" data-id="{{$question->id}}" type="submit">Submit</button>
+                        <p class="result1" id="p{{$question->id}}"></p><br>
                 </div>
             @endforeach
         </div>
@@ -122,14 +123,24 @@
                 font-size: 20px;
             }
             .false{
+                /*
                 color: red;
                 font-size: 20px;
                 float:right;
+                */
+                background-color: red !important;
+                display: block !important;
+
             }
             .correct{
+                /*
                 color: green;
                 font-size: 20px;
                 float:right;
+
+                 */
+                background-color: green !important;
+                display: block !important;
             }
             .btn2{
                 background-color: blue;
@@ -203,8 +214,37 @@
                 box-shadow: 1px 1px 1px 1px white;
             }
 
+
+            .result1 {
+                background-color: red;
+                display: flex;
+                position: relative;
+                top: -221px;
+                width: 40%;
+                left: 15%;
+                height: 100px;
+                line-height: 100px;
+                padding-left: 30px;
+                font-size: 26px;
+            }
+
+            body, p, a, div, h1, h2, span{
+                color: black !important;
+            }
+
+            .navbar-nav a {
+                color: #000 !important;
+            }
+
+            .result1{
+                background-color: red;
+                display: none !important;
+
+            }
+
         </style>
         <script>
+            var num4 = [];
             $(function () {
                 var test_type = 'practice';
                 var num5;
@@ -244,17 +284,26 @@
 
 
                 });
-
                 $("#btn3").click(function () {
                     trigger_btn3();
                 });
-
                 function trigger_btn3(){
                     if (test_type!='exam'){
                         return false;
                     }
+
+                    if (num4.length<1){
+                        generate_random_numbers();
+                    }
+
                     var num3 = Math.floor(Math.random() * num4.length);
+
+
+
+                    console.log(num4);
+
                     num3 = num4[num3];
+
 
                     $(".ph").css("display","none");
                     $(".div2").css("display","none");
@@ -278,8 +327,6 @@
                         clearInterval(timeS);
                     }
                 }
-
-
                 $("#btn5").click(function () {
                     num  = 0;
                     num2 = 0;
@@ -326,7 +373,6 @@
                     $("#btn6").css("display","none");
                 })
 
-
                 $("#btn4").click(function () {
                     num  = 0;
                     num2 = 0;
@@ -344,16 +390,13 @@
                     clearInterval(timeM);
                     clearInterval(timeS);
                 });
-
-                var num4 = [];
+                generate_random_numbers();
+            });
+            function generate_random_numbers() {
                 for(i=1;i<224;i++){
                     num4.push(i);
                 }
-
-
-
-
-            });
+            }
             var num;
             var num2;
             var timeS;
@@ -399,21 +442,24 @@
             function callHttp(url, data){
                 $.post(url, data, function(result){
                     num = eval(num+1);
-
+                    $("#p"+result[0]).html(result[1]).removeClass("correct");
+                    $("#p"+result[0]).html(result[1]).removeClass("false");
                     if(result[1] === 'correct'){
                         num2 = eval(num2+1);
                         $("#right").html("Right Answers:  " + num2);
+                        $("#p"+result[0]).attr('style','display:block !important');
                         $("#p"+result[0]).html(result[1]).addClass("correct");
                     }else{
                         num2 = eval(num2+0);
-                        $("#right").html("Right Answers:  " + num2);}
-                    $("#p"+result[0]).html(result[1]).addClass("false");
-
+                        $("#right").html("Right Answers:  " + num2);
+                        $("#p"+result[0]).attr('style','display:block !important');
+                        $("#p"+result[0]).html(result[1]).addClass("false");
+                    }
                     $("#count").html("Total Answers:  " + num);
-
                     var per = (num2 / num)*100;
                     per = per.toFixed(0);
-                    $("#persent").html("Persentage:  " + per+"%")
+                    $("#persent").html("Persentage:  " + per+"%");
+                    return false;
                 });
             }
         </script>

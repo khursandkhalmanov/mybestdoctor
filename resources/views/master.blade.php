@@ -54,9 +54,11 @@
             height: 100%;
         }</style>
 </head>
-<body style="background:url(&#39;brando/images/travel-img1.jpg&#39;) top #1e2126 no-repeat;">
+<body>
 <div class="container">
     @yield('content')
 </div>
+
+
 </body>
 </html>
