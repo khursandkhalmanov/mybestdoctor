@@ -44,34 +44,72 @@
                 <div class="myquestions_answers">
                 <p class="ph" id="phn{{$question->id}}"><b>Question No:{{$question->id}}</b></p><p class="ph" id="ph{{$question->id}}"><b> {{$question->question}}</b></p>
                 <div class="div2" id="div2{{$question->id}}">
-                    @if ($question->content != ''){{$question->content}}<br>@else @endif
-                    @if ($question->content_2 != ''){{$question->content_2}}<br>@else @endif
-                    @if ($question->content_3 != ''){{$question->content_3}}<br>@else @endif
-                    @if ($question->content_4 != ''){{$question->content_4}}<br>@else @endif
-                    @if ($question->content_5 != ''){{$question->content_5}}<br>@else @endif
-                    @if ($question->content_6 != ''){{$question->content_6}}<br>@else @endif
-                    @if ($question->content_7 != ''){{$question->content_7}}<br>@else @endif
-                    @if ($question->content_8 != ''){{$question->content_8}}<br>@else @endif
-                    @if ($question->content_9 != ''){{$question->content_9}}<br>@else @endif
-                    @if ($question->content_10 != ''){{$question->content_10}}<br>@else @endif<hr>
+                    <div class="myquestions_only">
+                        @if ($question->content != ''){{$question->content}}<br>@else @endif
+                        @if ($question->content_2 != ''){{$question->content_2}}<br>@else @endif
+                        @if ($question->content_3 != ''){{$question->content_3}}<br>@else @endif
+                        @if ($question->content_4 != ''){{$question->content_4}}<br>@else @endif
+                        @if ($question->content_5 != ''){{$question->content_5}}<br>@else @endif
+                        @if ($question->content_6 != ''){{$question->content_6}}<br>@else @endif
+                        @if ($question->content_7 != ''){{$question->content_7}}<br>@else @endif
+                        @if ($question->content_8 != ''){{$question->content_8}}<br>@else @endif
+                        @if ($question->content_9 != ''){{$question->content_9}}<br>@else @endif
+                        @if ($question->content_10 != ''){{$question->content_10}}<br>@else @endif
+                    </div>
 
-                    @if ($question->a != '') <input class="input2 a" id="a{{$question->id}}" type="checkbox"><p> A:{{$question->a}}</p><br>@else @endif
-                    @if ($question->b != '') <input class="input2 b" id="b{{$question->id}}" type="checkbox"><p> B:{{$question->b}}</p><br>@else @endif
-                    @if ($question->c != '') <input class="input2 c" id="c{{$question->id}}" type="checkbox"><p> C:{{$question->c}}</p><br>@else @endif
-                    @if ($question->d != '') <input class="input2 d" id="d{{$question->id}}" type="checkbox"><p> D:{{$question->d}}</p><br>@else @endif
-                    @if ($question->e != '') <input class="input2 e" id="e{{$question->id}}" type="checkbox"><p> E:{{$question->e}}</p><br>@else @endif
-                    <button class="btn2" data-id="{{$question->id}}" type="submit">Submit</button>
+
+                        <div class="myinputoptions">
+                            <p class="pickanswers">Pick the following answer(s) : </p>
+                            @if ($question->a != '') <input class="input2 a" id="a{{$question->id}}" type="checkbox"><p> A:{{$question->a}}</p><br>@else @endif
+                            @if ($question->b != '') <input class="input2 b" id="b{{$question->id}}" type="checkbox"><p> B:{{$question->b}}</p><br>@else @endif
+                            @if ($question->c != '') <input class="input2 c" id="c{{$question->id}}" type="checkbox"><p> C:{{$question->c}}</p><br>@else @endif
+                            @if ($question->d != '') <input class="input2 d" id="d{{$question->id}}" type="checkbox"><p> D:{{$question->d}}</p><br>@else @endif
+                            @if ($question->e != '') <input class="input2 e" id="e{{$question->id}}" type="checkbox"><p> E:{{$question->e}}</p><br>@else @endif
+                        </div>
+
+
+                    <button class="btn btn-success btn2" data-id="{{$question->id}}" type="submit">Submit</button>
                         <p class="result1" id="p{{$question->id}}"></p><br>
                 </div>
                 </div>
             @endforeach
         </div>
         <style>
+            .pickanswers{
+                color:blue !important;
+            }
+            .myquestions_only{
+                color: blue;
+                font-weight: bolder;
+                font-family: Verdana;
+                font-size: 20px;
+                padding-left: 30px;
+                border: 1px dotted black;
+                padding: 20px;
+            }
+            .myinputoptions{
+                background-color: #f5f5f5;
+                border: 1px solid #eaeaea;
+                padding:5px;
+            }
+            .ph:first-child{
+                background-color: #4e0505;
+                color: #ffe366 !important;
+                padding:5px;
+                border-radius: 5px;
+
+            }
+            .ph:nth-child(2){
+                padding:5px;
+                font-size: 12px;
+
+            }
             .myquestions_answers{
                 margin-bottom: 20px;
                 border: 5px solid black;
                 padding:10px;
                 background-color: #f5efef66;
+                border-radius: 10px;
             }
             .mysections{
                 background-color: #fff;
@@ -148,8 +186,9 @@
                 display: block !important;
             }
             .btn2{
-                background-color: blue;
+                background-color: #005685;
                 margin-bottom: 30px;
+                color: white;
             }
             .input2{
                 width: 20px;
