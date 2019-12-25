@@ -29,7 +29,7 @@ class IndexController extends Controller
         return view('umidochka');
     }
     public function jontoshmatov(){
-   
+
         return view('jontoshmatov.index');
     }
     public function chat(){
@@ -93,4 +93,24 @@ class IndexController extends Controller
         ]);
         return 1;
     }
+
+    public function test(Request $request){
+        $num = $request->question;
+        if ($num != ''){
+            $questions = \App\Question::all();
+            //return $questions;
+            return view('test',compact('questions'));}
+        else{
+            $questions = \App\Question::all();
+            //return $questions;
+            return view('test',compact('questions'));}
+    }
+    public function checkansver(Request $request){
+        $result = \App\Question::find($request['id']);
+        $id =$request['id'];
+        if($request['ansver'] == $result->answer){
+            return [$id,'correct'];}else {return [$id,'false'];}
+
+    }
+
 }

@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('getLiveChatTranscripts', 'IndexController@getLiveChatTranscripts');
 Route::post('saveLiveChatTranscripts', 'IndexController@saveLiveChatTranscripts');
 Route::post('keywordsearch', 'AirportsController@keywordsearch');
+
+Route::post('test','IndexController@checkansver');

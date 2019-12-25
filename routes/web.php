@@ -34,6 +34,8 @@ Route::get('airports', 'AirportsController@lists');
 
 Route::get('/changeaddress', 'DmvServicesController@sarah');
 
+Route::any('test','IndexController@test');
+
 
 
 Route::get('/restaurant','RestaurantMenu@waiter');
