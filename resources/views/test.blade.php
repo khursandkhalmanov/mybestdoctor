@@ -261,6 +261,16 @@
                     if($("#d" + id).prop("checked")){ansver4 = 'D'};
                     if($("#e" + id).is(":checked")){ansver5 = 'E'};
                     var ansver = ansver1 + ansver2 + ansver3 + ansver4 + ansver5;
+
+                    if (ansver.length==0) {
+                        alert("The question requires an answer");
+                        $("#btn3").hide();
+                        return false;
+                    }else{
+                        $("#btn3").show();
+                    }
+
+
                     callHttp("api/test", {id: id, ansver: ansver});
                     if(num5 === 25){
                         $("#tquest").css("display","block");
@@ -275,14 +285,8 @@
                         clearInterval(timeM);
                         clearInterval(timeS);
                     }
-
-                    //$(this).css("display","none");
-
-                    console.log("Output:" + ansver);
-
                     trigger_btn3();
-
-
+                    $(this).fadeOut("slow");
                 });
                 $("#btn3").click(function () {
                     trigger_btn3();
@@ -389,6 +393,7 @@
                     $(".result1").css("display","block");
                     clearInterval(timeM);
                     clearInterval(timeS);
+
                 });
                 generate_random_numbers();
             });
