@@ -110,6 +110,10 @@
                 padding:10px;
                 background-color: #f5efef66;
                 border-radius: 10px;
+
+            }
+            .myquestions_answers p{
+                font-size: 20px  !important;
             }
             .mysections{
                 background-color: #fff;
@@ -263,13 +267,14 @@
                 background-color: red;
                 display: flex;
                 position: relative;
-                top: -221px;
+                top: -92px;
                 width: 40%;
-                left: 15%;
-                height: 100px;
+                left: 0%;
+                height: 93px;
                 line-height: 100px;
                 padding-left: 30px;
                 font-size: 26px;
+                border-radius: 10px;
             }
 
             body, p, a, div, h1, h2, span{
@@ -286,6 +291,8 @@
             .result1{
                 background-color: red;
                 display: none !important;
+
+
 
             }
 
@@ -333,7 +340,7 @@
                         clearInterval(timeS);
                     }
                     trigger_btn3();
-                    $(this).fadeOut("slow");
+                    //$(this).fadeOut("slow");
                 });
                 $("#btn3").click(function () {
                     trigger_btn3();
