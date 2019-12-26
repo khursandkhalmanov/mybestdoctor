@@ -41,8 +41,11 @@
         <div class="mysections">
             <p class="result" id="tquest">Total Questions: 25</p></p><p class="result" id="count"></p><p class="result" id="right"></p><p class="result" id="persent" ></p>
             @foreach($questions as $question)
-                <div class="myquestions_answers">
-                <p class="ph" id="phn{{$question->id}}"><b>Question No:{{$question->id}}</b></p><p class="ph" id="ph{{$question->id}}"><b> {{$question->question}}</b></p>
+                @if(isset($question->id))
+                <div class="myquestions_answers" id="my_section_{{$question->id}}">
+
+                <p class="ph" id="phn{{$question->id}}">Question No:{{$question->id}}</p>
+                    <p class="ph" id="ph{{$question->id}}">{{$question->question}}</p>
                 <div class="div2" id="div2{{$question->id}}">
                     <div class="myquestions_only">
                         @if ($question->content != ''){{$question->content}}<br>@else @endif
@@ -72,6 +75,7 @@
                         <p class="result1" id="p{{$question->id}}"></p><br>
                 </div>
                 </div>
+                @endif
             @endforeach
         </div>
         <style>
@@ -110,6 +114,7 @@
                 padding:10px;
                 background-color: #f5efef66;
                 border-radius: 10px;
+                display: none;
 
             }
             .myquestions_answers p{
@@ -118,7 +123,7 @@
             .mysections{
                 background-color: #fff;
                 border:1px solid black;
-                display: none;
+
                 padding:10px;
             }
             #tquest{
@@ -207,12 +212,11 @@
             .div2{
                 color:white;
                 height: auto;
-                display: none;
+
             }
             .ph{
                 color: white;
                 font-size: 15px;
-                display: none;
             }
             p{
                 color:white;
@@ -402,6 +406,7 @@
                     $("#persent").css("display","none");
                     $(".result1").css("display","none");
                     $(".ph").css("display","none");
+                    $(".myquestions_answers").css("display","block");
                     $(".div2").css("display","none");
                     $("#btn6").css("display","block");
 
@@ -438,6 +443,7 @@
 
                     $("#tquest").css("display","none");
                     $(".ph").css("display","block");
+                    $(".myquestions_answers").css("display","block");
                     $(".div2").css("display","block");
                     $("#count").css("display","block");
                     $("#right").css("display","block");
