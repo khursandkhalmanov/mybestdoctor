@@ -15,53 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-############################################################
-Route::get('shoxab', 'IndexController@shoxab');
-Route::get('lathis', 'IndexController@lathis');
-Route::get('khursand', 'IndexController@khursand');
-Route::get('farrukh', 'IndexController@farrukh');
-Route::get('friend802000', 'IndexController@friend802000');
-Route::get('umidochka', 'IndexController@umidochka');
-Route::get('jontoshmatov', 'IndexController@jontoshmatov');
-Route::get('chat', 'IndexController@chat');
-Route::any('openchat', 'IndexController@openchat');
-Route::get('airports', 'AirportsController@lists');
-############################################################
-
-
-
-
-
-Route::get('/changeaddress', 'DmvServicesController@sarah');
-
-Route::any('test','IndexController@test');
-
-
-
-Route::get('/restaurant','RestaurantMenu@waiter');
-
-Route::get('/formpage', function (){
-    return view('insertcolmn');
+//DO NOT REMOVE THIS -- This a fix for http://my-best-doctor.uz/healthflex?wc-ajax=get_refreshed_fragments 404 page
+Route::get('healthflex', function () {
+    return 'healthflex';
 });
-Route::post('/insert','CarColor@insert');
-
-Route::get('/restaurant','RestaurantMenu@waiter');
-
-Route::get('/contactus', 'MarketingController@contactus');
-Route::post('/contactus', 'MarketingController@postcontactus');
-//put, path, update, delete
-Route::get('/restaurant','RestaurantMenu@waiter');
 
 
-Route::get('/contactus', 'MarketingController@contactus');
-Route::post('/contactus', 'MarketingController@postcontactus');
-//put, path, update, delete
+Route::get('/welcome', 'TestController@welcome');
+Route::get('/login', function (){
+    return view('auth.login');
+});
 
-
-Route::get('cars', 'CarsController@cars');
-Route::post('cars', 'CarsController@insertCars');
-Route::post('deletecars', 'CarsController@deleteCars');
-Route::get('deletecar', 'CarsController@deleteCar');
-Route::post('updateCars', 'CarsController@updateCars');
-
-Route::get('/groceries','GroceriesController@getGroceries');
+Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
+Route::get('/callback/{provider}', 'SocialController@callback');
