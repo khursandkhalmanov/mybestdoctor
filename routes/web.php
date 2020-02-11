@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('terms', function () {
+    return view('terms');
+});
+Route::get('privacy', function () {
+    return view('privacy');
+});
 
 //DO NOT REMOVE THIS -- This a fix for http://my-best-doctor.uz/healthflex?wc-ajax=get_refreshed_fragments 404 page
 Route::get('healthflex', function () {
