@@ -30,9 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'facebook' => [
-        'client_id' => env('943912079338714'),
-        'client_secret' => env('0c7acf466eb78a06b74450a88b0887cb'),
-        'redirect' => env('https://my-best-doctor.us/welcome'),
+        'client_id' => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' => env('FACEBOOK_REDIRECT'),
     ],
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),
