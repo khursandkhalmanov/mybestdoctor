@@ -29,5 +29,30 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    'facebook' => [
+        'client_id' => env('943912079338714'),
+        'client_secret' => env('0c7acf466eb78a06b74450a88b0887cb'),
+        'redirect' => env('https://my-best-doctor.us/welcome'),
+    ],
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        'redirect' => env('CALLBACK_URL_GOOGLE'),
+    ],
+    'twitter' => [
+        'client_id' => env('TWITTER_CLIENT_ID'),
+        'client_secret' => env('TWITTER_CLIENT_SECRET'),
+        'redirect' => env('CALLBACK_URL_TWITTER'),
+    ],
+    'linkedin' => [
+        'client_id' => env('LINKEDIN_CLIENT_ID'),
+        'client_secret' => env('LINKEDIN_CLIENT_SECRET'),
+        'redirect' => env('CALLBACK_URL_LINKEDIN'),
+    ],
+    'instagram' => [
+        'client_id' => env('INSTAGRAM_CLIENT_ID'),
+        'client_secret' => env('INSTAGRAM_CLIENT_SECRET'),
+        'redirect' => env('CALLBACK_URL_INSTAGRAM'),
+    ],
 
 ];
