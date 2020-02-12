@@ -28,9 +28,8 @@ Route::get('healthflex', function () {
 
 
 Route::get('/welcome', 'TestController@welcome');
-Route::get('/login', function (){
-    return view('auth.login');
-});
+Route::get('/logout', 'Auth\LoginController@logout');
+
 
 Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
 Route::get('/callback/{provider}', 'SocialController@callback');
