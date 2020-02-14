@@ -165,7 +165,7 @@
                 <div class="team_social"><a href="https://plethorathemes.com/healthflex/#" title="Twitter" target="_self"><i class="fa fa fa-twitter"></i></a><a href="https://plethorathemes.com/healthflex/#" title="Facebook" target="_self"><i class="fa fa fa-facebook"></i></a><a href="https://plethorathemes.com/healthflex/#" title="Google+" target="_self"><i class="fa fa fa-google-plus"></i></a><a href="https://plethorathemes.com/healthflex/#" title="LinkedIn" target="_self"><i class="fa fa fa-linkedin"></i></a><a href="https://plethorathemes.com/healthflex/#" title="Skype" target="_self"><i class="fa fa fa-skype"></i></a><a href="https://plethorathemes.com/healthflex/#" title="Send Us An Email" target="_self"><i class="fa fa fa-envelope"></i></a></div>
                 <div class="menu_container"><span class="close_menu">×</span>
                     <ul id="menu-primary-menu" class="main_menu hover_menu"><li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-145 current_page_item menu-item-1789 active"><a title="Home" href="https://plethorathemes.com/healthflex/">Home</a></li>
-                        <li id="menu-item-1673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1673 lihasdropdown"><a title="Our Clinic" href="https://plethorathemes.com/healthflex/#">Our Clinic  </a>
+                        <li id="menu-item-1673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1673 lihasdropdown"><a title="Our Clinic" href="/">Our Clinic  </a>
                             <ul role="menu" class=" menu-dropdown">
                                 <li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a title="About Us" href="https://plethorathemes.com/healthflex/about-us/">About Us</a></li>
                                 <li id="menu-item-1769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a title="Our Staff" href="https://plethorathemes.com/healthflex/our-staff/">Our Staff</a></li>
@@ -199,7 +199,9 @@
                                 <li id="menu-item-1918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1918"><a title="Buy this Theme!" target="_blank" href="https://1.envato.market/1VoM9">Buy this Theme!</a></li>
                                 <li id="menu-item-1754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1754"><a title="Documentation" href="http://doc.plethorathemes.com/healthflex/">Documentation</a></li>
                                 <li id="menu-item-1676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676"><a title="Support" href="http://plethorathemes.com/support/">Support</a></li>
-                                <li id="menu-item-2044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2044"><a title="Admin Demo &lt;span class=&quot;label label-danger&quot;&gt; NEW! &lt;/span&gt;" href="http://demo.plethorathemes.com/healthflex-admin/">Admin Demo <span class="label label-danger"> NEW! </span></a></li>
+                                <li id="menu-item-2044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2044">
+                                    <a title="Memebers Login &lt;span class=&quot;label label-danger&quot;&gt; NEW! &lt;/span&gt;" href="/login">Members Login <span class="label label-danger"> NEW! </span></a>
+                                </li>
                             </ul>
                         </li>
                     </ul>        </div>

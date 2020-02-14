@@ -40,9 +40,9 @@ return [
         'redirect' => env('CALLBACK_URL_GOOGLE'),
     ],
     'twitter' => [
-        'client_id' => env('TWITTER_CLIENT_ID'),
-        'client_secret' => env('TWITTER_CLIENT_SECRET'),
-        'redirect' => env('CALLBACK_URL_TWITTER'),
+        'client_id' => env('TWITTER_CLIENT_ID','769666381-WPppux6BCLnoZWRog0WPYbNufdCOrT7nMzGP0WdZ'),
+        'client_secret' => env('TWITTER_CLIENT_SECRET','8RstNtPpQDIUlovjPJhz5ZNkasQMn2BR5pDicsgnburlh'),
+        'redirect' => env('CALLBACK_URL_TWITTER','https://www.my-best-doctor.us/callback/twitter'),
     ],
     'linkedin' => [
         'client_id' => env('LINKEDIN_CLIENT_ID'),
