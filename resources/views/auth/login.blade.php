@@ -69,6 +69,9 @@
                                     <div class="col-md-8 offset-md-4">
                                         <a href="{{ url('/auth/redirect/facebook') }}" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</a>
                                         <a href="{{ url('/auth/redirect/twitter') }}" class="btn btn-primary"><i class="fa fa-twitter"></i> Twitter</a>
+                                        <br>
+                                        <a href="{{ url('/auth/redirect/linkedin') }}" class="btn btn-primary"><i class="fa fa-linkedin"></i> Linkedin</a>
+                                        <a href="{{ url('/auth/redirect/google') }}" class="btn btn-primary"><i class="fa fa-google"></i> Google</a>
                                     </div>
                                 </div>
 
