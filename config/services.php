@@ -48,8 +48,8 @@ return [
     'linkedin' => [
         'client_id' => env('LINKEDIN_CLIENT_ID','78yf8qjgm5se3o'),
         'client_secret' => env('LINKEDIN_CLIENT_SECRET', '5JQM2wdtZ9mmdoI5'),
-        'redirect' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/welcome'),
-        'redirect_uri' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/welcome'),
+        'redirect' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/callback/linkedin'),
+        'redirect_uri' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/callback/linkedin'),
     ],
     'instagram' => [
         'client_id' => env('INSTAGRAM_CLIENT_ID','1217626568444703'),
