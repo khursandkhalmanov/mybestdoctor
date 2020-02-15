@@ -24,6 +24,8 @@ Route::get('healthflex', function () {
     return 'healthflex';
 });
 
+
+
 Route::get('/welcome', 'TestController@welcome');
 Route::get('/logout', 'Auth\LoginController@logout');
 
@@ -34,3 +36,9 @@ Route::get('/callback/{provider}', 'SocialController@callback');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//All Authorized users pages
+Route::group(['middleware' => ['auth']], function () {
+    include_once "auth_routes.php";
+});
