@@ -32,7 +32,7 @@ return [
     'facebook' => [
         'client_id' => env('FACEBOOK_CLIENT_ID','943912079338714'),
         'client_secret' => env('FACEBOOK_CLIENT_SECRET','0c7acf466eb78a06b74450a88b0887cb'),
-        'redirect' => env('FACEBOOK_REDIRECT','https://my-best-doctor.us/welcome'),
+        'redirect' => env('FACEBOOK_REDIRECT','https://www.my-best-doctor.us/callback/facebook'),
     ],
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID','454243792503-rv0totlatv6bmq35d8c72mo30ovonnkr.apps.googleusercontent.com'),
@@ -48,8 +48,8 @@ return [
     'linkedin' => [
         'client_id' => env('LINKEDIN_CLIENT_ID','78yf8qjgm5se3o'),
         'client_secret' => env('LINKEDIN_CLIENT_SECRET', '5JQM2wdtZ9mmdoI5'),
-        'redirect' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/welcome'),
-        'redirect_uri' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/welcome'),
+        'redirect' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/callback/linkedin'),
+        'redirect_uri' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/callback/linkedin'),
     ],
     'instagram' => [
         'client_id' => env('INSTAGRAM_CLIENT_ID','1217626568444703'),
