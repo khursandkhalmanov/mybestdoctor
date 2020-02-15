@@ -153,8 +153,8 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN', 'https://www.my-best-doctor.us'),
-    'url' => env('URL', 'https://www.my-best-doctor.us'),
+    'domain' => env('SESSION_DOMAIN', 'my-best-doctor.us'),
+    'url' => env('URL', 'my-best-doctor.us'),
 
     /*
     |--------------------------------------------------------------------------
