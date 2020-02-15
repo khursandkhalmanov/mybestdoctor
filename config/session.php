@@ -153,7 +153,8 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN', null),
+    'domain' => env('SESSION_DOMAIN', 'https://www.my-best-doctor.us'),
+    'url' => env('URL', 'https://www.my-best-doctor.us'),
 
     /*
     |--------------------------------------------------------------------------
@@ -195,5 +196,7 @@ return [
     */
 
     'same_site' => null,
+
+
 
 ];

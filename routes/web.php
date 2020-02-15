@@ -24,21 +24,11 @@ Route::get('healthflex', function () {
     return 'healthflex';
 });
 
-
 Route::get('/welcome', 'TestController@welcome');
 Route::get('/logout', 'Auth\LoginController@logout');
 
-
 Route::get('/auth/redirect/{provider}', 'SocialController@redirect');
 Route::get('/callback/{provider}', 'SocialController@callback');
-
-
-Route::get('facebook', function () {
-    return view('facebook');
-});
-Route::get('auth/facebook', 'Auth\FacebookController@redirectToFacebook');
-Route::get('auth/facebook/callback', 'Auth\FacebookController@handleFacebookCallback');
-
 
 
 Auth::routes();

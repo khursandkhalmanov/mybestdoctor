@@ -35,14 +35,15 @@ return [
         'redirect' => env('FACEBOOK_REDIRECT','https://my-best-doctor.us/welcome'),
     ],
     'google' => [
-        'client_id' => env('GOOGLE_CLIENT_ID','AIzaSyCyb_pXz26OKSdFbanRvfjQvkT2hX9l8ZY'),
-        'client_secret' => env('GOOGLE_CLIENT_SECRET','AIzaSyCyb_pXz26OKSdFbanRvfjQvkT2hX9l8ZY'),
+        'client_id' => env('GOOGLE_CLIENT_ID','454243792503-rv0totlatv6bmq35d8c72mo30ovonnkr.apps.googleusercontent.com'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET','F8_txAeENZ6OzEAjTw9NGDfz'),
         'redirect' => env('GOOGLE_REDIRECT','https://www.my-best-doctor.us/welcome'),
     ],
     'twitter' => [
         'client_id' => env('TWITTER_CLIENT_ID','769666381-WPppux6BCLnoZWRog0WPYbNufdCOrT7nMzGP0WdZ'),
         'client_secret' => env('TWITTER_CLIENT_SECRET','8RstNtPpQDIUlovjPJhz5ZNkasQMn2BR5pDicsgnburlh'),
-        'redirect' => env('CALLBACK_URL_TWITTER','https://www.my-best-doctor.us/welcome'),
+        'redirect' => env('CALLBACK_URL_TWITTER','https://www.my-best-doctor.us/callback/twitter'),
+        'callback_url' => env('TWITTER_CALLBACK_URL','https://www.my-best-doctor.us/callback/twitter'),
     ],
     'linkedin' => [
         'client_id' => env('LINKEDIN_CLIENT_ID','78yf8qjgm5se3o'),
@@ -51,9 +52,9 @@ return [
         'redirect_uri' => env('LINKEDIN_REDIRECT','https://www.my-best-doctor.us/welcome'),
     ],
     'instagram' => [
-        'client_id' => env('INSTAGRAM_CLIENT_ID'),
-        'client_secret' => env('INSTAGRAM_CLIENT_SECRET'),
-        'redirect' => env('CALLBACK_URL_INSTAGRAM'),
+        'client_id' => env('INSTAGRAM_CLIENT_ID','1217626568444703'),
+        'client_secret' => env('INSTAGRAM_CLIENT_SECRET','e5a2142535a27e8814f22a3791736cda'),
+        'redirect' => env('INSTAGRAM_REDIRECT','https://www.my-best-doctor.us/welcome'),
     ],
 
 ];
