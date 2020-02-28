@@ -34,9 +34,9 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="https://s.w.org/">
     <link rel="alternate" type="application/rss+xml" title="HEALTHFLEX » Feed"
-          href="https://plethorathemes.com/healthflex/feed/">
+          href="/feed/">
     <link rel="alternate" type="application/rss+xml" title="HEALTHFLEX » Comments Feed"
-          href="https://plethorathemes.com/healthflex/comments/feed/">
+          href="/comments/feed/">
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
@@ -143,18 +143,18 @@
     <script type="text/javascript" src="healthflex_files/add-to-cart.min.js"></script>
     <script type="text/javascript" src="healthflex_files/woocommerce-add-to-cart.js"></script>
     <script type="text/javascript" src="healthflex_files/modernizr.custom.48287.js"></script>
-    <link rel="https://api.w.org/" href="https://plethorathemes.com/healthflex/wp-json/">
+    <link rel="https://api.w.org/" href="/wp-json/">
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
-          href="https://plethorathemes.com/healthflex/xmlrpc.php?rsd">
+          href="/xmlrpc.php?rsd">
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-          href="https://plethorathemes.com/healthflex/wp-includes/wlwmanifest.xml">
+          href="/wp-includes/wlwmanifest.xml">
     <meta name="generator" content="WordPress 5.3.2">
     <meta name="generator" content="WooCommerce 3.8.1">
-    <link rel="shortlink" href="https://plethorathemes.com/healthflex/">
+    <link rel="shortlink" href="/">
     <link rel="alternate" type="application/json+oembed"
-          href="https://plethorathemes.com/healthflex/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplethorathemes.com%2Fhealthflex%2F">
+          href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplethorathemes.com%2Fhealthflex%2F">
     <link rel="alternate" type="text/xml+oembed"
-          href="https://plethorathemes.com/healthflex/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplethorathemes.com%2Fhealthflex%2F&amp;format=xml">
+          href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplethorathemes.com%2Fhealthflex%2F&amp;format=xml">
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {

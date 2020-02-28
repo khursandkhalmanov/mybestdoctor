@@ -15,21 +15,21 @@
                                 <ul id="menu-top-bar" class="top_menu hover_menu" style="float: left;">
                                     <li id="menu-item-1774"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1774"><a
-                                            title="FAQ" href="https://plethorathemes.com/healthflex/faq/">FAQ</a></li>
+                                            title="FAQ" href="/faq/">FAQ</a></li>
                                     <li id="menu-item-1775"
                                         class="hidden menu-item menu-item-type-post_type menu-item-object-page menu-item-1775">
                                         <a title="Fees &amp; Insurance"
-                                           href="https://plethorathemes.com/healthflex/fees-insurance/">Fees &amp;
+                                           href="/fees-insurance/">Fees &amp;
                                             Insurance</a></li>
                                     <li id="menu-item-1773"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1773"><a
                                             title="Request an Appointment"
-                                            href="https://plethorathemes.com/healthflex/appointment-booking/">Request an
+                                            href="/appointment-booking/">Request an
                                             Appointment</a></li>
                                     <li id="menu-item-2027"
                                         class="more_demos_top_bar menu-item menu-item-type-custom menu-item-object-custom menu-item-2027">
                                         <a title="More Demos" target="_blank"
-                                           href="https://plethorathemes.com/healthflex/all-demos/">More Demos</a></li>
+                                           href="/all-demos/">More Demos</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -44,22 +44,22 @@
             <div class="mainbar  color">
                 <div class="container">
                     <div class="logo">
-                        <a href="https://plethorathemes.com/healthflex" class="brand">
+                        <a href="/" class="brand">
                             <img src="./healthflex_files/logo.png" alt="HealthFlex">
                         </a>
                     </div>
-                    <a title="" href="https://plethorathemes.com/healthflex/#" class="social_links"><i
+                    <a title="" href="/#" class="social_links"><i
                             class="fa fa-share-alt"></i></a>
-                    <div class="team_social"><a href="https://plethorathemes.com/healthflex/#" title="Twitter"
+                    <div class="team_social"><a href="/#" title="Twitter"
                                                 target="_self"><i class="fa fa fa-twitter"></i></a><a
-                            href="https://plethorathemes.com/healthflex/#" title="Facebook" target="_self"><i
-                                class="fa fa fa-facebook"></i></a><a href="https://plethorathemes.com/healthflex/#"
+                            href="/#" title="Facebook" target="_self"><i
+                                class="fa fa fa-facebook"></i></a><a href="/#"
                                                                      title="Google+" target="_self"><i
-                                class="fa fa fa-google-plus"></i></a><a href="https://plethorathemes.com/healthflex/#"
+                                class="fa fa fa-google-plus"></i></a><a href="/#"
                                                                         title="LinkedIn" target="_self"><i
-                                class="fa fa fa-linkedin"></i></a><a href="https://plethorathemes.com/healthflex/#"
+                                class="fa fa fa-linkedin"></i></a><a href="/#"
                                                                      title="Skype" target="_self"><i
-                                class="fa fa fa-skype"></i></a><a href="https://plethorathemes.com/healthflex/#"
+                                class="fa fa fa-skype"></i></a><a href="/#"
                                                                   title="Send Us An Email" target="_self"><i
                                 class="fa fa fa-envelope"></i></a></div>
                     <div class="menu_container"><span class="close_menu">×</span>
@@ -77,100 +77,100 @@
                                             Us</a></li>
                                     <li id="menu-item-1769"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1769"><a
-                                            title="Our Staff" href="https://plethorathemes.com/healthflex/our-staff/">Our
+                                            title="Our Staff" href="/our-staff/">Our
                                             Staff</a></li>
                                     <li id="menu-item-1759"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1759"><a
                                             title="Careers"
-                                            href="https://plethorathemes.com/healthflex/careers/">Careers</a></li>
+                                            href="/careers/">Careers</a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-1760"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1760"><a
-                                    title="Departments" href="https://plethorathemes.com/healthflex/departments/">Departments</a>
+                                    title="Departments" href="/departments/">Departments</a>
                             </li>
                             <li id="menu-item-1771"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1771"><a
-                                    title="Services" href="https://plethorathemes.com/healthflex/services/">Services</a>
+                                    title="Services" href="/services/">Services</a>
                             </li>
                             <li id="menu-item-1674"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1674 lihasdropdown">
-                                <a title="Info" href="https://plethorathemes.com/healthflex/#">Info </a>
+                                <a title="Info" href="/#">Info </a>
                                 <ul role="menu" class=" menu-dropdown">
                                     <li id="menu-item-1792"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1792"><a
                                             title="The Patient&#39;s &amp; Visitor&#39;s Guide"
-                                            href="https://plethorathemes.com/healthflex/visit-guide/">The Patient’s &amp;
+                                            href="/visit-guide/">The Patient’s &amp;
                                             Visitor’s Guide</a></li>
                                     <li id="menu-item-1767"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767"><a
                                             title="Appointment Booking"
-                                            href="https://plethorathemes.com/healthflex/appointment-booking/">Appointment
+                                            href="/appointment-booking/">Appointment
                                             Booking</a></li>
                                     <li id="menu-item-1762"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1762"><a
-                                            title="Health Plans" href="https://plethorathemes.com/healthflex/health-plans/">Health
+                                            title="Health Plans" href="/health-plans/">Health
                                             Plans</a></li>
                                     <li id="menu-item-1761"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1761"><a
                                             title="Health Library A-Z"
-                                            href="https://plethorathemes.com/healthflex/health-library/">Health Library
+                                            href="/health-library/">Health Library
                                             A-Z</a></li>
                                     <li id="menu-item-1756"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1756"><a
                                             title="Fees &amp; Insurance"
-                                            href="https://plethorathemes.com/healthflex/fees-insurance/">Fees &amp;
+                                            href="/fees-insurance/">Fees &amp;
                                             Insurance</a></li>
                                     <li id="menu-item-1768"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1768"><a
-                                            title="FAQ" href="https://plethorathemes.com/healthflex/faq/">FAQ</a></li>
+                                            title="FAQ" href="/faq/">FAQ</a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-1763"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763"><a
-                                    title="Blog" href="https://plethorathemes.com/healthflex/blog/">Blog</a></li>
+                                    title="Blog" href="/blog/">Blog</a></li>
                             <li id="menu-item-1764"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1764"><a
-                                    title="Contact" href="https://plethorathemes.com/healthflex/contact/">Contact</a></li>
+                                    title="Contact" href="/contact/">Contact</a></li>
                             <li id="menu-item-1765"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1765"><a
-                                    title="Shop" href="https://plethorathemes.com/healthflex/shop/">Shop</a></li>
+                                    title="Shop" href="/shop/">Shop</a></li>
                             <li id="menu-item-1672"
                                 class="two-column dropleft menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1672 lihasdropdown">
-                                <a title="More" href="https://plethorathemes.com/healthflex/#">More </a>
+                                <a title="More" href="/#">More </a>
                                 <ul role="menu" class=" menu-dropdown">
                                     <li id="menu-item-1772"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1772"><a
                                             title="Free Offer Landing Page"
-                                            href="https://plethorathemes.com/healthflex/free-checkup-offer/">Free Offer
+                                            href="/free-checkup-offer/">Free Offer
                                             Landing Page</a></li>
                                     <li id="menu-item-1770"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1770"><a
                                             title="A Department&#39;s Page"
-                                            href="https://plethorathemes.com/healthflex/departments/cosmetic-surgery/">A
+                                            href="/departments/cosmetic-surgery/">A
                                             Department’s Page</a></li>
                                     <li id="menu-item-1790"
                                         class="menu-item menu-item-type-post_type menu-item-object-terminology menu-item-1790">
                                         <a title="Knowledgebase Article"
-                                           href="https://plethorathemes.com/healthflex/blog/terminology/alzheimers-disease/">Knowledgebase
+                                           href="/blog/terminology/alzheimers-disease/">Knowledgebase
                                             Article</a></li>
                                     <li id="menu-item-1793"
                                         class="menu-item menu-item-type-post_type menu-item-object-profile menu-item-1793">
                                         <a title="A Doctor&#39;s Profile"
-                                           href="https://plethorathemes.com/healthflex/blog/profile/elias-carson/">A
+                                           href="/blog/profile/elias-carson/">A
                                             Doctor’s Profile</a></li>
                                     <li id="menu-item-1766"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1766"><a
-                                            title="Shortcodes" href="https://plethorathemes.com/healthflex/shortcodes/">Shortcodes</a>
+                                            title="Shortcodes" href="/shortcodes/">Shortcodes</a>
                                     </li>
                                     <li id="menu-item-1675"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1675"><a
-                                            title="Error 404 page" href="https://plethorathemes.com/healthflex/404">Error
+                                            title="Error 404 page" href="/404">Error
                                             404 page</a></li>
                                     <li id="menu-item-1816"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1816"><a
                                             title="All Other Demos &lt;span class=&quot;label label-danger&quot;&gt; NEW! &lt;/span&gt;"
-                                            target="_blank" href="https://plethorathemes.com/healthflex/all-demos/">All
+                                            target="_blank" href="/all-demos/">All
                                             Other Demos <span class="label label-danger"> NEW! </span></a></li>
                                     <li id="menu-item-1918"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1918"><a
@@ -245,7 +245,7 @@
                                                         every day. </p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/health-plans"
+                                                        <a href="/health-plans"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -282,7 +282,7 @@
                                                         compassion in mind.</p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/free-checkup-offer"
+                                                        <a href="/free-checkup-offer"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -320,7 +320,7 @@
                                                         every day. </p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/services"
+                                                        <a href="/services"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -357,7 +357,7 @@
                                                         every day. </p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/health-plans"
+                                                        <a href="/health-plans"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -394,7 +394,7 @@
                                                         compassion in mind.</p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/free-checkup-offer"
+                                                        <a href="/free-checkup-offer"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -432,7 +432,7 @@
                                                         every day. </p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/services"
+                                                        <a href="/services"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -470,7 +470,7 @@
                                                         every day. </p>
 
                                                     <div>
-                                                        <a href="https://plethorathemes.com/healthflex/health-plans"
+                                                        <a href="/health-plans"
                                                            target="_self" class="btn btn-primary">
                                                             Learn More
                                                         </a>
@@ -535,7 +535,7 @@
 
 
                                         <div class="link centered">
-                                            <a href="https://plethorathemes.com/healthflex/" target=""
+                                            <a href="/" target=""
                                                class="btn btn-xs btn-secondary"><strong>More</strong></a>
                                         </div>
 
@@ -581,7 +581,7 @@
 
 
                                         <div class="link centered">
-                                            <a href="https://plethorathemes.com/healthflex/" target=""
+                                            <a href="/" target=""
                                                class="btn btn-xs btn-secondary"><strong>More</strong></a>
                                         </div>
 
@@ -627,7 +627,7 @@
 
 
                                         <div class="link centered">
-                                            <a href="https://plethorathemes.com/healthflex/" target=""
+                                            <a href="/" target=""
                                                class="btn btn-xs btn-secondary"><strong>More</strong></a>
                                         </div>
 
@@ -673,7 +673,7 @@
 
 
                                         <div class="link centered">
-                                            <a href="https://plethorathemes.com/healthflex/" target=""
+                                            <a href="/" target=""
                                                class="btn btn-xs btn-secondary"><strong>More</strong></a>
                                         </div>
 
@@ -1330,29 +1330,29 @@
                                 <ul id="menu-quick-links" class="menu">
                                     <li id="menu-item-1784"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1784"><a
-                                            href="https://plethorathemes.com/healthflex/services/">All Medical Services</a>
+                                            href="/services/">All Medical Services</a>
                                     </li>
                                     <li id="menu-item-1785"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1785"><a
-                                            href="https://plethorathemes.com/healthflex/appointment-booking/">Appointment
+                                            href="/appointment-booking/">Appointment
                                             Booking</a></li>
                                     <li id="menu-item-1786"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1786"><a
-                                            href="https://plethorathemes.com/healthflex/faq/">FAQ</a></li>
+                                            href="/faq/">FAQ</a></li>
                                     <li id="menu-item-1787"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1787"><a
-                                            href="https://plethorathemes.com/healthflex/fees-insurance/">Fees &amp;
+                                            href="/fees-insurance/">Fees &amp;
                                             Insurance</a></li>
                                     <li id="menu-item-1788"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1788"><a
-                                            href="https://plethorathemes.com/healthflex/health-library/">Health Library
+                                            href="/health-library/">Health Library
                                             A-Z</a></li>
                                     <li id="menu-item-1755"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1755"><a
-                                            href="https://plethorathemes.com/healthflex/shop/">Shop</a></li>
+                                            href="/shop/">Shop</a></li>
                                     <li id="menu-item-1791"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1791"><a
-                                            href="https://plethorathemes.com/healthflex/free-checkup-offer/">Free Checkup
+                                            href="/free-checkup-offer/">Free Checkup
                                             Offer</a></li>
                                 </ul>
                             </div>
@@ -1365,17 +1365,17 @@
 
                                 <p class="social">
 
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank" title="Twitter"><i
+                                    <a href="/#" target="_blank" title="Twitter"><i
                                             class="fa fa-twitter"></i></a>
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank" title="Facebook"><i
+                                    <a href="/#" target="_blank" title="Facebook"><i
                                             class="fa fa-facebook"></i></a>
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank" title="Google+"><i
+                                    <a href="/#" target="_blank" title="Google+"><i
                                             class="fa fa-google-plus"></i></a>
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank" title="LinkedIn"><i
+                                    <a href="/#" target="_blank" title="LinkedIn"><i
                                             class="fa fa-linkedin"></i></a>
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank" title="Skype"><i
+                                    <a href="/#" target="_blank" title="Skype"><i
                                             class="fa fa-skype"></i></a>
-                                    <a href="https://plethorathemes.com/healthflex/#" target="_blank"
+                                    <a href="/#" target="_blank"
                                        title="Send Us An Email"><i class="fa fa-envelope"></i></a>
                                 </p>
 
@@ -1396,12 +1396,12 @@
 
                                     <li class="media">
 
-                                        <a href="https://plethorathemes.com/healthflex/blog/2015/11/23/daily-exercise-is-essential-for-your-health/"
+                                        <a href="/blog/2015/11/23/daily-exercise-is-essential-for-your-health/"
                                            class="media-photo"
                                            style="background-image:url(&#39; https://plethorathemes.com/healthflex/wp-content/uploads/2015/11/woman_running-150x150.jpg &#39;)"></a>
 
                                         <h5 class="media-heading">
-                                            <a href="https://plethorathemes.com/healthflex/blog/2015/11/23/daily-exercise-is-essential-for-your-health/">Daily
+                                            <a href="/blog/2015/11/23/daily-exercise-is-essential-for-your-health/">Daily
                                                 Exercise is essential</a>
                                             <small>Nov 23</small>
                                         </h5>
@@ -1411,12 +1411,12 @@
 
                                     <li class="media">
 
-                                        <a href="https://plethorathemes.com/healthflex/blog/2015/09/30/medical-advice/"
+                                        <a href="/blog/2015/09/30/medical-advice/"
                                            class="media-photo"
                                            style="background-image:url(&#39; https://plethorathemes.com/healthflex/wp-content/uploads/2015/09/blog-pills-150x150.jpg &#39;)"></a>
 
                                         <h5 class="media-heading">
-                                            <a href="https://plethorathemes.com/healthflex/blog/2015/09/30/medical-advice/">Medical
+                                            <a href="/blog/2015/09/30/medical-advice/">Medical
                                                 Advice for all ages and sexes</a>
                                             <small>Sep 30</small>
                                         </h5>
@@ -1426,12 +1426,12 @@
 
                                     <li class="media">
 
-                                        <a href="https://plethorathemes.com/healthflex/blog/2015/09/30/diabetes-diet-and-food-tips/"
+                                        <a href="/blog/2015/09/30/diabetes-diet-and-food-tips/"
                                            class="media-photo"
                                            style="background-image:url(&#39; https://plethorathemes.com/healthflex/wp-content/uploads/2015/09/blog-salad-150x150.jpg &#39;)"></a>
 
                                         <h5 class="media-heading">
-                                            <a href="https://plethorathemes.com/healthflex/blog/2015/09/30/diabetes-diet-and-food-tips/">Diabetes
+                                            <a href="/blog/2015/09/30/diabetes-diet-and-food-tips/">Diabetes
                                                 Diet and Healthy Food Tips</a>
                                             <small>Sep 30</small>
                                         </h5>
