@@ -1,8 +1,8 @@
 <?php
-Route::get('/aboutus', function () {
+Route::get('/about-us', function () {
     return view('healthflex.aboutus');
 });
-Route::get('/staff', function () {
+Route::get('/our-staff', function () {
     return view('healthflex.staff');
 });
 Route::get('/careers', function () {
@@ -41,7 +41,7 @@ Route::get('/contact', function () {
 Route::get('/shop', function () {
     return view('healthflex.shop');
 });
-Route::get('/free-checkup-order', function () {
+Route::get('/free-checkup-offer', function () {
     return view('healthflex.freecheckuporder');
 });
 Route::get('/alzheimers-disease', function () {

@@ -152,7 +152,7 @@
                                     <li id="menu-item-1790"
                                         class="menu-item menu-item-type-post_type menu-item-object-terminology menu-item-1790">
                                         <a title="Knowledgebase Article"
-                                           href="/blog/terminology/alzheimers-disease/">Knowledgebase
+                                           href="/alzheimers-disease">Knowledgebase
                                             Article</a></li>
                                     <li id="menu-item-1793"
                                         class="menu-item menu-item-type-post_type menu-item-object-profile menu-item-1793">

@@ -22,7 +22,7 @@
                                     <div class="wpb_wrapper">
                                         <div class="mp-start-demo">
 
-                                            <form action="https://demo.plethorathemes.com/healthflex-admin/" method="post" id="try-demo"
+                                            <form action="href="/healthflex-admin"" method="post" id="try-demo"
                                                   class="try-demo ">
                                                 <input name="mp_demo_create_sandbox" type="hidden" value="1">
 

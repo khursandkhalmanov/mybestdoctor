@@ -37,7 +37,7 @@
                                 <ul role="menu" class=" menu-dropdown">
                                     <li id="menu-item-1772" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-634 current_page_item menu-item-1772 active"><a title="Free Offer Landing Page" href="/free-checkup-offer/">Free Offer Landing Page</a></li>
                                     <li id="menu-item-1770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1770"><a title="A Department&#039;s Page" href="/departments/cosmetic-surgery/">A Department&#8217;s Page</a></li>
-                                    <li id="menu-item-1790" class="menu-item menu-item-type-post_type menu-item-object-terminology menu-item-1790"><a title="Knowledgebase Article" href="/blog/terminology/alzheimers-disease/">Knowledgebase Article</a></li>
+                                    <li id="menu-item-1790" class="menu-item menu-item-type-post_type menu-item-object-terminology menu-item-1790"><a title="Knowledgebase Article" href="/alzheimers-disease">Knowledgebase Article</a></li>
                                     <li id="menu-item-1793" class="menu-item menu-item-type-post_type menu-item-object-profile menu-item-1793"><a title="A Doctor&#039;s Profile" href="/blog/profile/elias-carson/">A Doctor&#8217;s Profile</a></li>
                                     <li id="menu-item-1766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1766"><a title="Shortcodes" href="/shortcodes/">Shortcodes</a></li>
                                     <li id="menu-item-1675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1675"><a title="Error 404 page" href="/healthflex/404">Error 404 page</a></li>
@@ -45,7 +45,7 @@
                                     <li id="menu-item-1918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1918"><a title="Buy this Theme!" target="_blank" href="https://1.envato.market/1VoM9">Buy this Theme!</a></li>
                                     <li id="menu-item-1754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1754"><a title="Documentation" href="http://doc.plethorathemes.com/healthflex/">Documentation</a></li>
                                     <li id="menu-item-1676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1676"><a title="Support" href="http://plethorathemes.com/support/">Support</a></li>
-                                    <li id="menu-item-2044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2044"><a title="Admin Demo &lt;span class=&quot;label label-danger&quot;&gt; NEW! &lt;/span&gt;" href="http://demo.plethorathemes.com/healthflex-admin/">Admin Demo <span class="label label-danger"> NEW! </span></a></li>
+                                    <li id="menu-item-2044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2044"><a title="Admin Demo &lt;span class=&quot;label label-danger&quot;&gt; NEW! &lt;/span&gt;" href="/healthflex-admin">Admin Demo <span class="label label-danger"> NEW! </span></a></li>
                                 </ul>
                             </li>
                         </ul>        </div>
