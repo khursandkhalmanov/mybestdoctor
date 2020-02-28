@@ -149,7 +149,7 @@
                     </div>
 
                     <div class="col-md-6 col-sm-6 hidden-xs hidden-sm text-right">
-                        <i class="fa fa-ambulance"></i> Emergency Line <strong>(+555) 959-595-959</strong>            </div>
+                        <i class="fa fa-ambulance"></i> Contact Info <strong>+1 (347) 576-94951</strong>            </div>
 
 
                 </div><!-- row -->
