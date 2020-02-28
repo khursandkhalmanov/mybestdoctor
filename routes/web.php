@@ -22,17 +22,7 @@ Route::get('privacy', function () {
 Route::get('/', function () {
     return view('healthflex.index');
 });
-Route::get('/aboutus', function () {
-    return view('healthflex.aboutus');
-});
-
-Route::get('/staff', function () {
-    return view('healthflex.staff');
-});
-
-Route::get('/careers', function () {
-    return view('healthflex.careers');
-});
+include('healthflex.php');
 
 
 
