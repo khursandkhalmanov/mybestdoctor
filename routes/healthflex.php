@@ -41,3 +41,30 @@ Route::get('/contact', function () {
 Route::get('/shop', function () {
     return view('healthflex.shop');
 });
+Route::get('/free-checkup-order', function () {
+    return view('healthflex.freecheckuporder');
+});
+Route::get('/alzheimers-disease', function () {
+    return view('healthflex.alzheimersdisease');
+});
+Route::get('/shortcodes', function () {
+    return view('healthflex.shortcodes');
+});
+Route::get('/all-demos', function () {
+    return view('healthflex.alldemos');
+});
+Route::get('/healthflex-admin', function () {
+    return view('healthflex.healthflexadmin');
+});
+Route::get('/cosmetic-surgery', function () {
+    return view('healthflex.cosmeticsurgery');
+});
+Route::get('/elias-carson', function () {
+    return view('healthflex.blog_profile_elias_carson');
+});
+Route::get('/404', function () {
+    return view('healthflex.404');
+});
+Route::get('/404', function () {
+    return view('healthflex.404');
+});
