@@ -21,6 +21,8 @@ Route::get('privacy', function () {
 //DO NOT REMOVE THIS -- This a fix for http://my-best-doctor.uz/healthflex?wc-ajax=get_refreshed_fragments 404 page
 Route::get('/', function () {
     return view('healthflex.index');
+});
+
 include('healthflex.php');
 
 
