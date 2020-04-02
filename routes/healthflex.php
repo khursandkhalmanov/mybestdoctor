@@ -75,3 +75,6 @@ Route::get('/404', function () {
 Route::get('/blank', function () {
     return view('healthflex.blank');
 });
+Route::get('/sherzod', 'PublicController@sherzod');
+Route::get('/khursan', 'PublicController@khursan');
+
