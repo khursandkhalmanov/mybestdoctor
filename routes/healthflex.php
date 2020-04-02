@@ -1,4 +1,8 @@
 <?php
+Route::get('/search', function () {
+    return view('healthflex.search');
+});
+
 Route::get('/about-us', function () {
     return view('healthflex.aboutus');
 });
@@ -67,4 +71,7 @@ Route::get('/404', function () {
 });
 Route::get('/404', function () {
     return view('healthflex.404');
+});
+Route::get('/blank', function () {
+    return view('healthflex.blank');
 });
