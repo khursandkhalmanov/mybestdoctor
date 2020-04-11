@@ -251,7 +251,7 @@
                                 <p>
                                     <img
                                         src="https://plethorathemes.com/healthflex/wp-content/uploads/2013/06/healthflex_logo_white.png"
-                                        alt="" style="max-width:"></p>
+                                        alt="" style="max-"></p>
 
 
                                 <p>Premium Wordpress Theme mainly Medical Oriented but so flexible that lets you build
