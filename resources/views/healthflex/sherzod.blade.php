@@ -211,33 +211,11 @@
             <section class="vc_row wpb_row vc_row-fluid no_bottom_padding">
                 <div class="container">
                     <div class="row">
-                        <div class="wpb_column vc_column_container col-sm-12">
-                            <div class="wpb_wrapper">
-
-                                <div class="section_header subtitle_bottom   fancy text-left">
-
-                                    <h2>THIS IS A BLANK BLADE</h2>
-
-                                    <hr>
-                                    <img src="https://www.signalsaz.com/wp-content/uploads/2020/03/stethoscope.jpg">
-
-                                    <p>May have a photo or an icon, a title, a subtitle, a description and a link
-                                        button. It accepts all color schemes and can be shaped in different ratios</p>
-                                </div>
-
-                            </div>
-                        </div>
+                        @include('healthflex.include.sherzod')
                     </div>
                 </div>
             </section>
-
         </div>
-
-
-
-
-
-
         <footer class="sep_angled_positive_top separator_top ">
             <div class="container">
                 <div class="row">

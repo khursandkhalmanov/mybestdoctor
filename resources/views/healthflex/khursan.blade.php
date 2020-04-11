@@ -1,8 +1,7 @@
 @extends('healthflex.master')
 @section('title', 'Shortcodes')
 @section('content')
-    <body
-        class="page-template-default page page-id-568 theme-healthflex woocommerce-no-js wpb-js-composer js-comp-ver-6.1 vc_responsive sticky_header ">
+    <body class="page-template-default page page-id-568 theme-healthflex woocommerce-no-js wpb-js-composer js-comp-ver-6.1 vc_responsive sticky_header ">
     <div class="overflow_wrapper">
         <div class="header ">
             <div class="topbar vcenter transparent">
@@ -175,7 +174,6 @@
             </div>
 
         </div>
-
         <div class="head_panel skincolored_section diagonal-bgcolor-trans">
             <div class="diagonal_headings_layout">
                 <div class="hgroup">
@@ -196,7 +194,6 @@
         </div>
         <div class="brand-colors"></div>
         <span class="progress_ball"><i class="fa fa-refresh"></i></span>
-
         <div class="loader-modal"></div>
         <div id="loader"
              data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z"
@@ -213,18 +210,7 @@
                     <div class="row">
                         <div class="wpb_column vc_column_container col-sm-12">
                             <div class="wpb_wrapper">
-
-                                <div class="section_header subtitle_bottom   fancy text-left">
-
-                                    <h2>{{$sayHello}}</h2>
-
-                                    <hr>
-                                    <img src="https://www.signalsaz.com/wp-content/uploads/2020/03/stethoscope.jpg">
-
-                                    <p>May have a photo or an icon, a title, a subtitle, a description and a link
-                                        button. It accepts all color schemes and can be shaped in different ratios</p>
-                                </div>
-
+                                @include('healthflex.include.khursan')
                             </div>
                         </div>
                     </div>
@@ -232,12 +218,6 @@
             </section>
 
         </div>
-
-
-
-
-
-
         <footer class="sep_angled_positive_top separator_top ">
             <div class="container">
                 <div class="row">
@@ -415,9 +395,7 @@
         c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
         document.body.className = c;
     </script>
-
     @include('healthflex.allcssfiles')
     @include('healthflex.alljavascriptfiles')
-
     </body>
 @endsection
