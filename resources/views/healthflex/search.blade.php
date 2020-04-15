@@ -131,7 +131,7 @@
 
                             </div>
                             <div class="btn-search">
-                                <button type="button" class="btn btn-block">Search</button>
+                                <button type="button" class="btn btn-block">Izlash</button>
                             </div>
                         </div>
                     </div>
