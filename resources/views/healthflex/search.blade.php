@@ -182,7 +182,7 @@
                                         <ul>
                                             <li><i class="far fa-thumbs-up"></i> 98%</li>
                                             <li><i class="far fa-comment"></i> 17 Feedback</li>
-                                            <li><i class="fas fa-map-marker-alt"></i> Florida, USA</li>
+                                            <li><i class="fas fa-map-marker-alt"></i> Toshkent, UZB</li>
                                             <li><i class="far fa-money-bill-alt"></i>$10dan - $1000gacha <i
                                                     class="fas fa-info-circle" data-toggle="tooltip"
                                                     title="Lorem Ipsum"></i></li>
@@ -203,7 +203,7 @@
                             <div class="doctor-widget">
                                 <div class="doc-info-left">
                                     <div class="doctor-img">
-                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-02.jpg"
+                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-03.jpg"
                                              class="img-fluid" alt="User Image">
                                     </div>
                                     <div class="doc-info-cont">
@@ -258,7 +258,7 @@
                             <div class="doctor-widget">
                                 <div class="doc-info-left">
                                     <div class="doctor-img">
-                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-02.jpg"
+                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-04.jpg"
                                              class="img-fluid" alt="User Image">
                                     </div>
                                     <div class="doc-info-cont">
@@ -313,7 +313,7 @@
                             <div class="doctor-widget">
                                 <div class="doc-info-left">
                                     <div class="doctor-img">
-                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-02.jpg"
+                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-06.jpg"
                                              class="img-fluid" alt="User Image">
                                     </div>
                                     <div class="doc-info-cont">
@@ -368,12 +368,12 @@
                             <div class="doctor-widget">
                                 <div class="doc-info-left">
                                     <div class="doctor-img">
-                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-02.jpg"
+                                        <img src="/healthflex_files/assets/img/doctors/doctor-thumb-07.jpg"
                                              class="img-fluid" alt="User Image">
                                     </div>
                                     <div class="doc-info-cont">
-                                        <h4 class="doc-name">Dr. Darren Elder</h4>
-                                        <p class="doc-speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
+                                        <h4 class="doc-name">Dr. Jessica</h4>
+                                        <p class="doc-speciality">Maxillofacial Surgery</p>
                                         <h5 class="doc-department"><img
                                                 src="/healthflex_files/assets/img/specialities/specialities-05.png"
                                                 class="img-fluid" alt="Speciality">Dentist</h5>
