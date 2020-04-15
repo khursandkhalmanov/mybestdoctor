@@ -228,7 +228,7 @@
                                             <span>Tish tozalash</span>
                                             <span> Oqartirish</span>
                                             <span> Plombalash</span>
-                                            <span>Va Boshqalar</span>
+                                            <span>Nerv olish</span>
                                         </div>
                                     </div>
                                 </div>
