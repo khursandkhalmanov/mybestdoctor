@@ -148,17 +148,17 @@
         /* ]]> */
     </script>
     <!-- jQuery -->
-    <script src="healthflex_files/assets/js/jquery.min.js"></script>
+    <script src="./healthflex_files/assets/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JS -->
-    <script src="healthflex_files/assets/js/popper.min.js"></script>
-    <script src="healthflex_files/assets/js/bootstrap.min.js"></script>
+    <script src="./healthflex_files/assets/js/popper.min.js"></script>
+    <script src="./healthflex_files/assets/js/bootstrap.min.js"></script>
 
     <!-- Slick JS -->
-    <script src="healthflex_files/assets/js/slick.js"></script>
+    <script src="./healthflex_files/assets/js/slick.js"></script>
 
     <!-- Custom JS -->
-    <script src="healthflex_files/assets/js/script.js"></script>
+    <script src="./healthflex_files/assets/js/script.js"></script>
     <script type="text/javascript" src="healthflex_files/add-to-cart.min.js"></script>
     <script type="text/javascript" src="healthflex_files/woocommerce-add-to-cart.js"></script>
     <script type="text/javascript" src="healthflex_files/modernizr.custom.48287.js"></script>
@@ -285,7 +285,7 @@
         .sep_angled_positive_bottom .separator_bottom:before {
             right: 49.8% !important;
         }            </style>
-    <script src="healthflex_files/f(1).txt"></script>
+    <script src="./healthflex_files/f(1).txt"></script>
     <style piggy-ext="" data-styled-version="4.2.0"></style>
     <style piggy-ext="" data-styled-version="4.2.0"></style>
 </head>

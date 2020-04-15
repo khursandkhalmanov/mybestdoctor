@@ -102,13 +102,10 @@
                 </div>
             </section>
             <!-- Clinic and Specialities -->
-
-
             <!-- Slick JS -->
-            <script src="healthflex_files/assets/js/slick.js"></script>
-
+            <script src="/healthflex_files/assets/js/slick.js"></script>
             <!-- Custom JS -->
-            <script src="healthflex_files/assets/js/script.js"></script>
+            <script src="/healthflex_files/assets/js/script.js"></script>
 
 
         </div>
