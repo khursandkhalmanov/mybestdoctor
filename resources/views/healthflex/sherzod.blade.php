@@ -8,6 +8,7 @@
             <div class="topbar vcenter transparent">
                 <div class="container">
                     <div class="row">
+                        <!-- top menu -->
 
                         <div class="col-md-6 col-sm-6 hidden-xs hidden-sm text-left">
                             <div class="top_menu_container">
@@ -41,9 +42,7 @@
                 <div class="container">
                     <div class="logo">
                         <a href="/" class="brand">
-                            <img
-                                src="https://plethorathemes.com/healthflex/wp-content/uploads/2013/06/healthflex_logo_color.png"
-                                alt="HealthFlex">
+                            <h3 style="color: #0f3e68">MY&nbspBEST<span style="color: #00A8FF">DOCTOR</span></h3>
                         </a>
                     </div>
                     <a title="" href="#" class="social_links"><i class="fa fa-share-alt"></i></a>
@@ -59,7 +58,7 @@
                         <ul id="menu-primary-menu" class="main_menu hover_menu">
                             <li id="menu-item-1789"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1789">
-                                <a title="Home" href="/">Home</a></li>
+                                <a title="/sherzod" href="/">Home</a></li>
                             <li id="menu-item-1673"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1673 lihasdropdown">
                                 <a title="Our Clinic" href="#">Our Clinic </a>
@@ -211,7 +210,10 @@
             <section class="vc_row wpb_row vc_row-fluid no_bottom_padding">
                 <div class="container">
                     <div class="row">
+
                         @include('healthflex.include.sherzod')
+
+
                     </div>
                 </div>
             </section>

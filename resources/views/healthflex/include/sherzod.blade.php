@@ -7,7 +7,7 @@
                 <div class="container-fluid">
                     <div class="banner-wrapper">
                         <div class="banner-header text-center">
-                            <h1>Shifokorni toping , va appointment qiling</h1>
+                            <h3 style="color: #0f3e68">Shifokorni toping , va appointment qiling</h3>
                             <p>Uzbekiston boylab Eng zo'r oliy toifali Shifokorlarni toping.</p>
                         </div>
 
@@ -102,10 +102,6 @@
                 </div>
             </section>
             <!-- Clinic and Specialities -->
-            <!-- Slick JS -->
-            <script src="/healthflex_files/assets/js/slick.js"></script>
-            <!-- Custom JS -->
-            <script src="/healthflex_files/assets/js/script.js"></script>
 
 
         </div>
