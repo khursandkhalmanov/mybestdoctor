@@ -179,7 +179,7 @@
                 <div class="hgroup">
                     <div class="title diagonal-bgcolor-trans body-bg_section   ">
                         <div class="container">
-                            <h1>Shortcodes</h1>
+                            <h1>Appointment</h1>
                         </div>
                     </div>
 
@@ -211,6 +211,87 @@
                         <div class="wpb_column vc_column_container col-sm-12">
                             <div class="wpb_wrapper">
                                 @include('healthflex.include.khursan')
+                                <div class="-border myform">
+                                    <img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/3632453/910/607/m1/fpnw/wm0/1-.png?1511530520&s=77bae50c165f67c57a0adce4c19a2fb6">
+                                    <br><p><b>Book My best doctor</b></p>
+                                    <form>
+                                        <input placeholder="doctor name" type="text" method="post">
+                                        <i class="fa fa-search"></i>
+                                        <input placeholder="zip code or city" type="text" method="post">
+                                        <i class="fa fa-location-arrow"></i>
+                                        <input  type="date" method="post">
+                                            <i class="fa fa-calendar"></i>
+                                        <input id="insurance" placeholder="insurance carrier and plan" onclick=healthCareOpt() type="text" method="post">
+                                        <i class="fa fa-file"></i>
+                                        <div id="healthCareOpt" class="dropdown">
+                                            <div id="div"><div id="div1">1. Choose carrier</div><div id="div2"></div><div id="div3">2. Choose plan</div></div><br>
+                                            <div class="div" id="div4"></div><div class="div" id="div5"></div>
+                                            <div id="div6">
+                                                <ul>
+                                                <span id="op1" value="United-healthcare" onclick="chooseHealthCare()">United-healthcare</span><br>
+                                                <span id="op2" onclick="chooseHealthCare()">Aetna</span><br>
+                                                </ul>
+                                            </div>
+                                            <div id="div7">
+                                                <ul>
+                                                <span id="plan1" onclick="choosePlan()">Elect Choice EPO</span><br>
+                                                <span id="plan2" onclick="choosePlan()">HMO</span><br>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <button>Find</button>
+
+                                    </form>
+
+
+
+                                </div>
+                                <hr>
+                                <table class="table-info table">
+                                    <tr>
+                                        <td><img class="doc_picture" src="https://hcplive.s3.amazonaws.com/v1_media/_image/happydoctor.jpg"></td>
+                                        <td>
+                                            <h3>Dr. Samuel Miller, MD</h3><br>
+                                            <p><b>Dentist</b><br>
+                                            587 Kings Hwy, Brooklyn, NY, 11223</p><br>
+                                            <i class="fa fa-star">4.77(88)</i>
+                                        </td>
+                                        <td>
+                                            <span><i class="fa fa-calendar"></i><p style="margin-left: 10px">Appointments available Mon, Apr 20</p></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">Book online</button></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">View profile and reviews</button></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="doc_picture" src="https://www.franklinhealthclinic.ca/wp-content/uploads/2020/03/doctor-img2.png"></td>
+                                        <td>
+                                            <h3>Dr. Samuel Miller, MD</h3><br>
+                                            <p><b>Dentist</b><br>
+                                            587 Kings Hwy, Brooklyn, NY, 11223</p><br>
+                                            <i class="fa fa-star">4.77(88)</i>
+                                        </td>
+                                        <td>
+                                            <span><i class="fa fa-calendar"></i><p style="margin-left: 10px">Appointments available Mon, Apr 20</p></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">Book online</button></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">View profile and reviews</button></span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="doc_picture" src="https://purepng.com/public/uploads/large/purepng.com-doctordoctorsdoctors-and-nursesclinicianmedical-practitionernotepadfemale-1421526857248uragw.png"></td>
+                                        <td>
+                                            <h3>Dr. Angelica Delgado, OD</h3><br>
+                                            <p><b>Optometrist</b><br>
+                                            587 Kings Hwy, Brooklyn, NY, 11223</p><br>
+                                            <i class="fa fa-star">4.77(88)</i>
+                                        </td>
+                                        <td>
+                                            <span><i class="fa fa-calendar"></i><p style="margin-left: 10px">Appointments available Mon, Apr 20</p></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">Book online</button></span><br>
+                                            <span><button style="width: 200px" class="btn-primary">View profile and reviews</button></span>
+                                        </td>
+                                    </tr>
+
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -388,9 +469,154 @@
             </div>
         </div>
     </div>
+    <style>
+        .myform{
+            background-color: white;
+            width: 600px;
+            height: 800px;
+            padding: 50px;
+        }
+        .myform img{
+            width: 200px;
+            height: 100px;
+        }
+        .myform p{
+            font-size: 30px;
+            color: #02244a;
+        }
+        .myform input{
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            padding-left: 40px;
+        }
+        .myform button{
+            width: 100%;
+            height: 50px;
+            font-size: 25px;
+            background-color: #31486f;
+            color: white;
+        }
+        .myform button:hover{
+            background-color: #4bacfc;
+            color: white;
+        }
+        .myform i{
+            font-size: 20px;
+            position: relative;
+            left: 15px;
+            top: -40px;
+            opacity: 50%;
+        }
+        .dropdown{
+            background-color: white;
+            box-shadow: 1px 1px 1px 1px grey;
+            position: absolute;
+            padding: 20px;
+            z-index: 10;
+            width: 500px;
+            display: none;
+
+        }
+        #div{
+            border: 1px solid grey;
+            height: 42px;
+        }
+        #div1{
+            text-align: center;
+            color:white;
+            font-size: 20px;
+            padding: 5px;
+            float: left;
+            background-color: blue;
+            width: 221px;
+            height: 40px;
+        }
+        #div2{
+            float: left;
+            width: 0px;
+            height: 0px;
+            border-left: 16px solid blue;
+            border-bottom: 20px solid white;
+            border-top: 20px solid white;
+
+        }
+        #div3{
+            text-align: center;
+            color:grey;
+            font-size: 20px;
+            padding: 5px;
+            float: left;
+            background-color: white;
+            width: 221px;
+            height: 40px;
+        }
+        #div4{
+            max-width: 250px;
+            color: grey;
+            font-size: 20px;
+        }
+        #div5{
+            max-width: 250px;
+            color: grey;
+            font-size: 20px;
+        }
+        #div6{
+
+        }
+        #div7{
+            display: none;
+        }
+        .div{
+            max-width: 250px;
+            font-size: 20px;
+            color: grey;
+        }
+        .doc_picture{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        .table span{
+            display: inline-flex;
+            margin-top: 30px;
+        }
+
+
+    </style>
     <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
     <script type="text/html" id="wpb-modifications"></script>
     <script type="text/javascript">
+        function healthCareOpt(){
+            document.getElementById('healthCareOpt').style.display='block';
+            document.getElementById('div6').style.display='block';
+            document.getElementById('div7').style.display='none';
+            document.getElementById('div3').style.backgroundColor='white';
+            document.getElementById('div3').style.color='black';
+            document.getElementById('div2').style.borderBottom='20px solid white';
+            document.getElementById('div2').style.borderTop='20px solid white';
+            document.getElementById('div2').style.borderLeft='16px solid blue';
+            document.getElementById('div1').style.backgroundColor='blue';
+            document.getElementById('div1').style.color='white';
+        };
+        function chooseHealthCare() {
+            document.getElementById('div4').innerHTML=document.getElementById('op1').innerHTML+'-';
+            document.getElementById('div6').style.display='none';
+            document.getElementById('div7').style.display='block';
+            document.getElementById('div3').style.backgroundColor='blue';
+            document.getElementById('div3').style.color='white';
+            document.getElementById('div2').style.borderBottom='20px solid blue';
+            document.getElementById('div2').style.borderTop='20px solid blue';
+            document.getElementById('div2').style.borderLeft='16px solid white';
+            document.getElementById('div1').style.backgroundColor='white';
+            document.getElementById('div1').style.color='grey';
+        }
+        function choosePlan() {
+            document.getElementById('insurance').value=document.getElementById('div4').innerHTML+document.getElementById('plan1').innerHTML;
+            document.getElementById('healthCareOpt').style.display='none';
+        }
+
         var c = document.body.className;
         c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
         document.body.className = c;
